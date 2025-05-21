@@ -53,6 +53,50 @@ Pour ce qui est du taux de réponse, celui-ci est bas : il devrait excéder les 
 
 ### Temps de Résolution et taux de résolution
 
+On ne sait pas si le taux de résolution est décompté à partir de la date de création du ticket ou  du temps de première réponse : il est donc difficile de mesurer si les objectifs sont atteints. 
+On remarque que les Refund et Product inquiries mettent du temps à être traitées par rapport à un Technical Issue donc:
+1) il faut que le process de remboursement soit clair, simple, rapide
+2) pour les product inquiries, il faut de la documentation claire à destination des clients,  et des Saved Replies pour le support (voire un chatbot)
+
+### Customer Satisfaction
+
+Avec un FRT moyen de 35h et un TTR moyen de 35h aussi, on peut anticiper une CSAT assez basse.
+
+C’est le cas ici où elle est de 2.99 : nous avons fixé un objectif à 4 qui est le minimum recommandé pour un service support.
+
+La  CSAT la plus basse concerne surtout  les problèmes techniques: il faut impérativement améliorer le traitement de ce type de ticket en spécialisant les équipes et/ou en développant une FAQ  pour aider les utilisateurs à résoudre un incident sans contacter le support.
+Le canal le plus à mal globalement reste le téléphone : il faut donc réévaluer le plan de charge sur ce canal, et réfléchir à eds automatisations, ou à l'abandon du service téléphonique au bénéfice du tchat.
+
+Les produits triés par CSAT devraient être comparé avec un Net Promoter Score pour recueillir un meilleur feedback sur nos produits.
+
+## Recommandations
+
+### 10 recommandations data
+
+- Créer une colonne Creation Date
+- First Response Time = Datetime de première réponse
+- Time to resolution = Datetime de résolution
+- Créer une colonne Client ID
+- Créer une colonne Agent ID
+- Créer une colonne State 
+- Créer une colonne Product Category
+- Créer une colonne Product Brand
+- Créer une colonne Ticket Channel avec sources de données
+- Mettre en place du shadow avec le support pour mieux mapper le flux de données
+
+### 10 recommandations opérationnelles
+
+- Viser une CSAT à 4,00 minimum
+- FRT < 24H
+- “Pending for Customer Response” en “Closed” au bout de 3 semaines
+- Des équipes support spécialisées 
+- Des FAQ claires pour maximiser le Self Care
+- Limiter au maximum le téléphone pour privilégier l’écrit
+- Mettre en place Harvestr
+- Développer des Saved Replies
+- Développer un chatbot
+- Accès à un historique de tickets
 
 
-### 
+
+
