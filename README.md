@@ -1,26 +1,25 @@
 # Le projet Customer First Company
 
-## Contexte
+## Introduction
 
-La société Customer First Company est une société fictive basée aux Etats-Unis spécialisée dans la vente de Hardware, Software, téléphonie
-Plusieurs canaux sont disponibles pour contacter son service client.
+Le but de ce projet est d'analyser des données fictives afin de démontrer comment, à partir de données brutes, de précieux insights peuvent être livrés aux équipes métiers : ici, le service client de 'Customer First', basée aux Etat-sUnis et spécialisé dans la vente de produits hardware, logiciels, et dans la téléphonie.
 
-Nous avions 10 jours pour finaliser le projet :
-- Faire une analyse de la donnée existante 
-- Identifier les KPIs
-- Ebaucher un plan d’action pour améliorer ces KPIs
-- Proposer des pistes d’amélioration pour optimiser le support
+Le défi à relever est donc d'explorer les données et de les corriger si besoin, de comprendre les process business en place pour les challenger une fois des KPIs identifiés et les données analysées. 
+L'objectif est d'améliorer la satisfaction des clients en identifiant des axes d'amélioration.
 
+A l'issue de cette étude qui durera 10 jours, un rapport Power BI doit être livré aux équipes métiers, ainsi que des recommandations pour améliorer le fonctionnement du service client.
+
+Le code utilsé pour l'exploration des données est public, et le rapport final peut être téléchargé.
 
 ## Objectifs
 
-Identifier des KPIs
-Evaluer la performance du service client
-Améliorer le service client
+1) Identifier des KPIs pour les équipes métiers
+2) Evaluer la performance du service client
+3) Livrer un rapport Power BI pour aider les équipes métiers à piloter l'activité
 
 ## Les données
 
-Le jeu de données est constitué de 8469 tickets et 17 colonnes.
+Le jeu de données est un constitué de 8469 tickets et 17 colonnes.
 
 Ces données nous on permis d'analyser les KPIs suivants :
 - Le volume des tickets qui va compter le nombre de Tickets IDs
@@ -30,11 +29,19 @@ Ces données nous on permis d'analyser les KPIs suivants :
 - Le taux de résolution
 - La Customer satisfaction (CSAT): une note donnée par un client à la suite d’un échange avec le support.
 
+## Les process Business
+
+Grâce à l'exploration des données, un business process a pu être cartographié, mais nécessite des entretiens avec le service client pour mieux détailler son fonctionnement.
+
+
+
 ## Insights
 
 ### Démographie
 
-Globalement c’est très équilibré, même si la catégorie 18-30 ans est la plus représentée.
+Pour ce qui est des données démographiques, on remarque que la catégorie 18-30 ans est la plus représentée (de peu). Si ce segment est le plus représenté dans les ventes, cela peut expliquer pourquoi il est plus représenté dans l'échantillon : en revanche, un écart important entre les ventes et le taux de contact par catégorie démographique peut illustrer un besoin non adressé, qu'il s'agisse du produit, du tunnel de conversion, du service client.
+
+Cela permet notamment d'identifier les canaux où concentrer les agents du service client pour prendre en charge rapidement et efficacement les demandes.
 
 ### Volume de tickets
 
@@ -86,16 +93,16 @@ Les produits triés par CSAT devraient être comparé avec un Net Promoter Score
 
 ### 10 recommandations opérationnelles
 
-- Viser une CSAT à 4,00 minimum
-- FRT < 24H
-- “Pending for Customer Response” en “Closed” au bout de 3 semaines
-- Des équipes support spécialisées 
-- Des FAQ claires pour maximiser le Self Care
+- Viser une CSAT à 4,00 minimum pour garantir une expérience client optimale
+- Viser un FRT de moins de 24 heures pour améliorer la réactivité
+- Changer le statut des tickets “Pending for Customer Response” en “Closed” au bout de 3 semaines (automatisation à envisager)
+- Spécialiser les équipes support pour répondre  efficacement aux demandes
+- Rédiger des FAQ claires et engageantes pour maximiser le Self Care
 - Limiter au maximum le téléphone pour privilégier l’écrit
-- Mettre en place Harvestr
-- Développer des Saved Replies
-- Développer un chatbot
-- Accès à un historique de tickets
+- Mettre en place Harvestr pour récupérer et expoiter les retours client
+- Développer des Saved Replies pour répondre rapidement aux demandes écrites (Intercom offre cette fonctionnalité)
+- Développer un chatbot pour gérer un volume de demandes important
+- Accéder à un historique de tickets
 
 
 
