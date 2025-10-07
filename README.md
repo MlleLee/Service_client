@@ -41,22 +41,22 @@ Grâce à l'exploration des données, un business process a pu être cartographi
 
 Pour ce qui est des données démographiques, on remarque que la catégorie 18-30 ans est la plus représentée (de peu). Si ce segment est le plus représenté dans les ventes, cela peut expliquer pourquoi il est plus représenté dans l'échantillon : en revanche, un écart important entre les ventes et le taux de contact par catégorie démographique peut illustrer un besoin non adressé, qu'il s'agisse du produit, du tunnel de conversion, du service client.
 
-Cela permet notamment d'identifier les canaux où concentrer les agents du service client pour prendre en charge rapidement et efficacement les demandes.
+Par ailleurs, croiser les données démographiques du service client avec  les département des ventes et du marketint permet d'identifier les canaux où concentrer les agents du service client pour prendre en charge rapidement et efficacement les demandes. 
 
 ### Volume de tickets
 
-Globalement c’est encore une fois bien réparti sur les canaux, et sur la priorité, ce qui n’est pas une bonne nouvelle!
-Par exemple, le téléphone représente ¼ des tickets. 
-Or au téléphone :  un agent traite 1 ticket à la fois.
-A l’écrit : 1 agent traite 7 tickets à la fois.
-On perd donc en efficacité.
+Si  le volume de ticket est bien réparti sur l'ensemble des canaux, il l'est aussi sur la priorité : or certains canaux devraient permettre de traiter plus des demandes, plus rapidement (en particulier les tickets à haute priorité).
+Par exemple ici, le téléphone représente ¼ des tickets. Or au téléphone, un agent traite un ticket à la fois : à l'écrit, un agent traite sept tickets à la fois.
+Le service pourrait gagner en efficacité en privilégiant l'écrit, et en réservant le téléphone aux tickets urgents pour proposer une résolution rapide et une expérience client personnalisée.
 
-### First Response Time te le taux de réponse
+### First Response Time et le taux de réponse
 
 Le temps moyen de première réponse est de 35 heures : il devrait être de 24 heures maximum pour les emails et les réseaux sociaux, de quelques minutes pour le tchat et le téléphone.
-Il n'y a pas de changement en fonction de la priorité du ticket, alors qu'un ticket de type Critical devrait être pris en charge très rapidement.
+De plus, il n'y a pas de changement en fonction de la priorité du ticket, alors qu'un ticket de type Critical devrait être pris en charge très rapidement.
 
 Pour ce qui est du taux de réponse, celui-ci est bas : il devrait excéder les 90%.
+
+Le temps de première réponse et le taux de réponse sont en-deça des standards pour un service client. Le process devrait changer afin que les tickets soient pris en charge par ordre de priorité
 
 ### Temps de Résolution et taux de résolution
 
@@ -104,6 +104,8 @@ Les produits triés par CSAT devraient être comparé avec un Net Promoter Score
 - Développer un chatbot pour gérer un volume de demandes important
 - Accéder à un historique de tickets
 
+### Propositionn de Process
 
+## Conclusion
 
 
